@@ -1,0 +1,19 @@
+spring: 
+   security:
+      oauth2:
+        client:
+          registration:
+            google:
+              clientId: 748377842116-allmtjcvgb6jg380r6p25ik1ib0dqane.apps.googleusercontent.com
+              clientSecret: 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
+              redirectUri: "{baseUrl}/oauth2/callback/{registrationId}"
+              scope:
+                - email
+                - profile
+   mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+server:
+  port: 8080
+crypto: 
+  secret: "jaassecret"
