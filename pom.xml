@@ -11,7 +11,7 @@
 	<artifactId>JaasService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>JaasService</name>
-	<description>Authentication and Authorization service in spring boot</description>
+	<description>Authentication and Authorization service in spring boot with user model</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<sonar.projectKey>sagarwalke-dev_JaasService</sonar.projectKey>
