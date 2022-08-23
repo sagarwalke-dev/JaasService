@@ -17,3 +17,9 @@ server:
   port: 8080
 crypto: 
   secret: "jaassecret"
+database: 
+  username: "root"
+  password: "root"
+  url: "jdbc:mysql://localhost:3306/springboot"
+  driver: "com.mysql.cj.jdbc.Driver"
+ 

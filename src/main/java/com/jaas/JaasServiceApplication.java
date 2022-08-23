@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.extern.slf4j.Slf4j;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author Sagar Walke
@@ -13,7 +14,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 @SpringBootApplication
 @Slf4j
-@RestController
+@EnableSwagger2
 public class JaasServiceApplication {
 	  
 	

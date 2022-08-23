@@ -1,6 +1,7 @@
 package com.jaas.dao;
 
 import com.jaas.entity.User;
+import com.jaas.entity.UserDetails;
 
 /**
  * @author sagarwalke.dev
@@ -13,5 +14,7 @@ public interface UserDao {
 	 * @param user
 	 * @return
 	 */
-	public User getUser(User user);
+	public User getUserByName(String username);
+	
+	public Boolean addUser(UserDetails user);
 }
